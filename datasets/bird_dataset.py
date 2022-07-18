@@ -8,7 +8,7 @@ from PIL import Image
 from torch.utils.data import Dataset
 from utils import get_transform
 
-DATAPATH = '/hy-tmp/my/FGVCDATA/CUB-200-2011'
+DATAPATH = '/hy-tmp/my/FGVCDATA/CUB_200_2011'
 image_path = {}
 image_label = {}
 
