@@ -9,7 +9,7 @@ from scipy.io import loadmat
 from torch.utils.data import Dataset
 from utils import get_transform
 
-DATAPATH = '/hy-tmp/my/FGVCDATA/stanfordcarsdogs'
+DATAPATH = '/hy-tmp/my/FGVCDATA/stanforddogs'
 
 
 class DogDataset(Dataset):
