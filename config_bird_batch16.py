@@ -3,7 +3,7 @@
 ##################################################
 GPU = '0'                   # GPU
 workers = 4                 # number of Dataloader workers
-epochs = 160                # number of epochs
+epochs = 80                 # number of epochs (default:160)
 batch_size = 16             # batch size
 learning_rate = 1e-3        # initial learning rate
 
