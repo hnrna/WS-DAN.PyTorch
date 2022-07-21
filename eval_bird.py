@@ -12,7 +12,7 @@ from torchvision import transforms
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-import config_bird_batch16 as config
+import config_bird_batch16_epoch160 as config
 from models import WSDAN
 from datasets import get_trainval_datasets
 from utils import TopKAccuracyMetric, batch_augment

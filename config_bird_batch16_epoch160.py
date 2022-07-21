@@ -3,7 +3,7 @@
 ##################################################
 GPU = '0'                   # GPU
 workers = 4                 # number of Dataloader workers
-epochs = 80                 # number of epochs (default:160)
+epochs = 160                # number of epochs (default:160)
 batch_size = 16             # batch size
 learning_rate = 1e-3        # initial learning rate
 
@@ -21,8 +21,8 @@ beta = 5e-2                 # param for update feature centers
 tag = 'bird'                # 'aircraft', 'bird', 'car', or 'dog'
 
 # saving directory of .ckpt models
-save_dir = './FGVC/CUB-200-2011/ckpt/'
-model_name = 'model.ckpt'
+save_dir = './FGVC/CUB-200-2011_bird_batch16_epoch160/ckpt/'
+model_name = 'model_bird_batch16_epoch160.ckpt'
 log_name = 'train.log'
 
 # checkpoint model for resume training
@@ -34,4 +34,4 @@ ckpt = False
 ##################################################
 visualize = True
 eval_ckpt = save_dir + model_name
-eval_savepath = './FGVC/CUB-200-2011/visualize/'
+eval_savepath = './FGVC/CUB-200-2011_bird_batch16_epoch160/visualize/'

@@ -12,7 +12,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
 
-import config_bird_batch16 as config
+import config_bird_batch16_epoch160 as config
 from models import WSDAN
 from datasets import get_trainval_datasets
 from utils import CenterLoss, AverageMeter, TopKAccuracyMetric, ModelCheckpoint, batch_augment
