@@ -22,7 +22,7 @@ tag = 'bird'                # 'aircraft', 'bird', 'car', or 'dog'
 
 # saving directory of .ckpt models
 save_dir = './FGVC/CUB-200-2011_bird_batch16_epoch160/ckpt/'
-model_name = 'model_bird_batch16_epoch160.ckpt'
+model_name = 'model.ckpt'
 log_name = 'train.log'
 
 # checkpoint model for resume training
